@@ -3,7 +3,7 @@ from pprint import pprint
 import requests
 from bs4 import BeautifulSoup
 
-proc_man = input('Do you want to search for AMD or Intel products?')
+proc_man = input('Do you want to search for AMD or Intel products? ')
 available_proc_man = ['amd', 'intel']
 if proc_man.lower() not in available_proc_man:
     print('Invalid proccesor manufacturer selected!!')
